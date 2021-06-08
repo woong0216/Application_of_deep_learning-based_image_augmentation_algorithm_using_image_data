@@ -2,7 +2,7 @@
 
 ## Superpixel (Covid-19 Image Dataset)
 
-### python file
+### Python file
 > img_aug_1.py
 - 기본적인 augmentation 기법: 뒤집기(Filp), 회전(Rotate), 크기(Scale), 자르기(Crop), 붙이기(Pad) 변형
 > img_aug_2.py
@@ -15,7 +15,7 @@
 - resNet50를 통해 image classification 수행
 - augment 폴더의 augment train dataset과 test dataset을 통해 loss 및 accuracy 측정
 - 
-### dataset
+### Dataset
 > train folder
 - 기존 train dataset
 > test folder
@@ -25,7 +25,7 @@
 - brigt_color folder: img_aug_2.py와 main.py를 통해 형성
 - flip_affine folder: img_aug_3.py와 main.py를 통해 형성
 - 
-### output
+### Output
 > output folder
 - Performance Evaluation.py를 통해 기존 train, aug1(method1), aug2(method2), aug3(method3)의 결과물 도출
 
